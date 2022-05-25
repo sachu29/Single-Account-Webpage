@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.single-Ac{
+    width: 100%;
+}
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 10px;
+    height: 100%;
+}
+.Main-logo{
+    padding: 22px 32px;
+}
+.Main-logo a{
+    line-height: 0;
+    display: inline-block;
+}
+.banner-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./Images/banner-Bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-heading{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);   
+}
+.hero-heading h1{
+    font-size: 54px;
+    color: #ffffff;
+    line-height: normal;
+    font-family: 'Lato', sans-serif;
+    text-align: center; 
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+/* Section two */
+
+.point-of-sale{
+    font-family: 'Lato', sans-serif;
+    padding: 72px 0 30px 0;
+    color: #293340;
+}
+.point-of-sale .para-1{
+    font-size: 15px;
+    margin: 0 0 30px 0;
+}
+.point-of-sale .para-2{
+    font-size: 13px;
+}
+
+/* Section two */
+
+/* Section three */
+
+.image-placeholder {
+    width: 100%;
+    
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+.image-placeholder img{
+    width: 100%;
+    max-width: 666px;
+    max-height: 480px;
+}
+
+
+/* Section three */
+
+/* Section Four */
+
+.setup-your-design{
+    font-family: 'Lato', sans-serif;
+    margin: 0 0 20px 0;
+}
+.setup-your-design h3{
+    font-size: 19px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0 0 15px 0;
+    color: 
+    #363d4f;
+}
+.setup-your-design p{
+    font-size: 13px;
+    color: 
+    #6d7783;
+    line-height: 16px;
+    margin: 0 0 19px 0;
+}
+
+
+/* Section Four */
+
+/* List Section  */
+.list-of-section{
+    width: 100%;
+    margin: 0 0 30px 0;
+}
+.list{
+    width: 100%;
+    margin: 0 0 30px 0;
+    padding-left: 15px;
+}
+.list ul li::marker{
+    width: 5px;
+    color:
+    #071fc8;
+}
+.list ul li{
+    width: 100% ;
+    font-size: 13px;
+    line-height: 16px;
+    font-family: 'Lato', sans-serif;
+    color: #6d7783;
+    margin: 0 0 7px 0;
+}
+.list-content{
+    margin: 0 0 10px 0;
+}
+.list-content p{
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 300;
+    color: #6d7783;
+    padding:  0 65px 0 40px;
+    font-family: 'Lato', sans-serif;
+}
+.violet-layer{
+    margin: 0 0 30px 0;
+}
+.violet-layer img{
+    width: 100%;
+    max-width: 502px;
+}
+
+.all-bank-heading{
+font-size: 19px;
+color: #363d4f;
+line-height: 24px;
+font-weight: 500;
+text-transform: 500;
+margin: 0 0 14px 0;
+}
+.all-bank-content{
+    font-size: 10px;
+    line-height: 16px;
+    color: #6d7783;
+    font-family: 'Poppins', sans-serif;
+    
+}
+/* List Section  */
+
+/* YOU MAY ALSO LIKE SECTION */
+
+.you-may-also-like-heading h2{
+    font-size: 23px;
+    color: #363d4f;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    margin:  0 0 19px 0;
+}
+.line{
+    margin: 0 0 20px 0;
+}
+.line hr{
+    width: 58px;
+    border-style: none;
+    border-bottom: 1.3px solid #071fc8;
+    margin:0 auto;
+}
+
+
+
+.three-placeholder-wrapper{
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.one-third-wrapper{
+    display: inline-block;
+    width: 247px;
+    margin: 0 8px 30px 8px;
+
+}
+.small-Image-placeholder-wrapper{
+    display: inline-block;
+    margin: 0 0 20px 0;   
+}
+.placeholder-article h5{
+    font-size: 12px;
+    color: #363d4f;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    margin: 0 0 15px 0;
+    text-align: left;
+}
+.placeholder-article p{
+    font-size: 10px;
+    color: #6d7783;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    padding-right: 10px;
+
+}
+
+/* YOU MAY ALSO LIKE SECTION */
+
+/* Footer Section */
+
+.footer{
+    clear: left;
+    width: 100%;
+    height: 48px;
+    background-color: #1f2026;
+}
+.footer-wrapper{
+    max-width: 780px;
+    margin: 0 auto;
+}
+.copyrights{
+    font-size: 10px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    padding: 19px 0;
+}
+
+/* Footer Section */
+
+/* Media query */
+
+@media screen and (max-width:768px) {
+    .Main-logo{
+        width: 100%;
+        text-align: center;
+    }
+    .hero-heading h1{
+        width: 100%;
+        font-size: 35px;
+    }
+    .point-of-sale{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .copyrights{
+        font-size: 8px;
+        text-align: center;
+    }
+}
+
+/* Media query */
+
